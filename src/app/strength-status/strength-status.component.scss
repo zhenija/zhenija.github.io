@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  margin-bottom: 1em;
+  background-color: #8f8f8f;
+  height: fit-content;
+
+  &__status {
+    font-size: x-small;
+    color: #3d3737;
+    padding: 1vh;
+    flex-grow: 1;
+    text-align: center;
+    height: 100%;
+
+    &--empty {
+      color:black;
+      opacity: 50%;
+    }
+
+    &--strong {
+      background-color: #00d6b7;
+    }
+  }
+}
